@@ -1,5 +1,10 @@
+body * {
+    /* border: 1px solid grey; */
+}
+
 body {
-    background-clip: #efeee7;
+    /* background-clip: #efeee7; */
+    background-color: #efeee7;
     margin: 0;
     padding: 0;
     font-family: "Georgia", "Times New Roman",
@@ -8,41 +13,119 @@ body {
     line-height: 150%;
 }
 
-h1 {
-    color: #efeee7;
-    background-color: #333333;
-    margin: 0;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 28px;
+
+header {
+    height: 31px;
+    border: 2px solid #cccccc; 
+    background-color: #ffffff;
+    margin: auto;
+    padding: 25px 50px 25px 50px;
+    width: 100%;
+}
+
+.title {
+    float: left;
+    border: 1px solid #efeee7;
+    background-color: #4aaaa5;
+    margin-left: 490px;
+    padding-bottom: 17px;
+    padding-top: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav {
+    /* border: 1px dashed blue; */
+    /* background-color: #090; */
+    float: right;
+    margin-right: 600px;
+}
+
+nav > ul {
+    padding-left: 0px;
+    margin: 0px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    color: gray;
+    display: inline;
+
+}
+nav > ul > li { 
+    display: inline;
+    padding: 0 20px 0 0;
 }
 
 h2 {
     font-size: 24px;
+    text-align: left;
+    margin-left: 6px;
+}
+#teal {
+    color: #efeee7;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#white {
     color: #4aaaa5;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 10px;
 }
 
-a {
-    color: #d21034;
+.image-container {
+            margin-left: 10px;
 }
 
+h3 {
+    font-size: 24px;
+    color: #4aaaa5;
+    text-align: center;
+}
+
+img {
+    height: 70px;
+}
+
+#social {
+    width: 50px;
+}
 .container {
-    width: 1024px;
+    width: 960px;
     margin: 0 auto;
 }
 
+main {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid gray; */
+}
+
 #main-bio,
-#contact-info,
 #bio-image {
     float: left;
 }
 
-#main-bio {
-    width: 70%;
+.clear {
+    clear: both;
 }
+
+#main-bio {
+    width: 650px;
+    background-color:#ffffff;
+    border: 1px solid grey;
+    height: 720px;
+    margin-top: 40px;
+}
+
 #contact-info {
-    width: 30%;
+    width: 270px;
+    background-color:#ffffff;
+    border: 1px solid grey;
+    float: right;
+    height: 200px;
+    margin-top: 40px;
 }
 
 #bio-image {
@@ -60,15 +143,5 @@ a {
     bottom: 0;
     font-size: 12px;
     width: 100%;
-}
-
-#nametitle {
-	margin: 20px;
-	padding: 40px;
-	border: 20px;
-	font-size: 28px;
-	font: inherit;
-    vertical-align: baseline;
-    background-color: #333333
-
+    border-top: 6px solid red;
 }
